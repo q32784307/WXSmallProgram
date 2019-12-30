@@ -1,0 +1,74 @@
+<!--index.wxml-->
+<swiper class='u-wrp-bnr' autoplay='true' interval='5000' duration='1000' circular='true' bindchange="swiperChange" current="{{swiperCurrent}}">
+  <block wx:for="{{bnrUrl}}">
+    <swiper-item>
+      <image src='{{item}}' class='u-img-slide' mode='aspectFill'     bindtap="swipclick"></image>
+    </swiper-item>
+  </block>
+  </swiper>
+  <view class="imageCount">{{swiperCurrent+1}}/{{bnrUrl.length}}</view>
+  <image class="proprietaryImage" src="/Image/标签/自营工匠.png" mode="aspectFill"></image>
+  <text class="proprietaryText">自营工匠</text>
+  <image class="importImage" src="/Image/标签/进口工具.png" mode="aspectFill"></image>
+  <text class="importText">进口工具</text>
+  <image class="standardImage" src="/Image/标签/标准流程.png" mode="aspectFill"></image>
+  <text class="standardText">标准流程</text>
+  <image class="salesImage" src="/Image/标签/无忧售后.png" mode="aspectFill"></image>
+  <text class="salesText">无忧售后</text>
+  <!-- 金刚位 -->
+  <view class="kingKong">
+    <view class="vouchersView" bindtap="vouchersPush">
+      <image class="vouchersImage" src="/Image/金刚位/领券中心.png" mode="aspectFill"></image>
+      <text class="vouchersText">领券中心</text>
+    </view>
+    <view class="dailyView" bindtap="dailyPush">
+      <image class="dailyImage" src="/Image/金刚位/日常保洁.png" mode="aspectFill"></image>
+      <text class="dailyText">日常保洁</text>
+    </view>
+    <view class="optimizationView" bindtap="optimizationPush">
+      <image class="optimizationImage" src="/Image/金刚位/优选保洁.png" mode="aspectFill"></image>
+      <text class="optimizationText">优选保洁</text>
+    </view>
+    <view class="cleanView" bindtap="cleanPush">
+      <image class="cleanImage" src="/Image/金刚位/家电清洗.png" mode="aspectFill"></image>
+      <text class="cleanText">家电清洗</text>
+    </view>
+    <view class="forestView" bindtap="forestPush">
+      <image class="forestImage" src="/Image/金刚位/开荒保洁.png" mode="aspectFill"></image>
+      <text class="forestText">开荒保洁</text>
+    </view>
+  </view>
+  <!-- 金刚位 -->
+
+  <!-- 推荐位 -->
+  <view class="optimizationPlan" bindtap="optimizationPlanPush">
+    <image class="optimizationPlanImage" src="/Image/首页/首页_优惠套餐.png" mode="aspectFill"></image>
+  </view>
+  <view class="springClean" bindtap="springCleanPush">
+    <image class="springCleanImage" src="/Image/首页/首页_周周特价.png" mode="aspectFill"></image> 
+  </view>
+  <view class="weekSpecials" bindtap="weekSpecialsPush">
+    <image class="weekSpecialsImage" src="/Image/首页/首页_周周特价.png" mode="aspectFill"></image> 
+  </view>
+  <!-- 推荐位 -->
+  <!-- 家政服务 -->
+  <text class="domestic">家政服务</text>
+  <button class="domesticMore" bindtap="pushAction">查看更多</button>
+  <image class="pushImage" src="/Image/跳转按钮.png" mode="aspectFill"></image>
+  <text class="domesticSubtitle">您的家庭生活美学管理专家</text>
+  <scroll-view class="domesticScroll" scroll-x="true">
+    <view class="scrollItem1" >
+      <image class="qualityRecommendedImage" src="/Image/首页/首页_品质推荐.png"></image>
+      <image class="goodsImage1">
+    
+      </image>
+    </view>
+    <view class="scrollItem2" >
+
+    </view>
+    <view class="scrollItem3" >
+    
+    </view>
+  </scroll-view>
+  <!-- 家政服务 -->
+<!-- </view> -->

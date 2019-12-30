@@ -1,0 +1,56 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/classification/classification",
+    "pages/customerService/customerService",
+    "pages/me/me",
+    "pages/index/couponsCenter/couponsCenter",
+    "pages/index/dailyProcter/dailyProcter",
+    "pages/index/optimizationProcter/optimizationProcter",
+    "pages/index/electricClean/electricClean",
+    "pages/index/forestProcter/forestProcter",
+    "pages/index/优惠套餐/optimizationPlan",
+    "pages/index/大扫除/springClean",
+    "pages/index/周周特价/weekSpecials"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "大众工匠",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "backgroundColor": "#f9f9f9",
+    "borderStyle": "black",
+    "selectedColor": "#000000",
+    "color": "#666666",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "Image/tabBar/tabbar_home.png",
+        "selectedIconPath": "Image/tabBar/tabbar_home_selected.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/classification/classification",
+        "iconPath": "Image/tabBar/tabbar_home.png",
+        "selectedIconPath": "Image/tabBar/tabbar_home_selected.png",
+        "text": "分类"
+      },
+      {
+        "pagePath": "pages/customerService/customerService",
+        "iconPath": "Image/tabBar/tabbar_message_center.png",
+        "selectedIconPath": "Image/tabBar/tabbar_message_center_selected.png",
+        "text": "客服"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "iconPath": "Image/tabBar/tabbar_me.png",
+        "selectedIconPath": "Image/tabBar/tabbar_me_selected.png",
+        "text": "我的"
+      }
+    ]
+  }
+}
